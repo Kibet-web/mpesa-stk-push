@@ -1,14 +1,20 @@
 {
   "name": "mpesa-stk-push",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "M-Pesa STK Push integration with Express",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mpesa",
+    "stk",
+    "express",
+    "daraja"
+  ],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.11.0",
     "dotenv": "^17.2.1",
